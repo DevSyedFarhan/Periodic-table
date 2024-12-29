@@ -19,20 +19,29 @@ body {
 }
 
 h1 {
-    margin-top:10%;
     color: #333;
     font-size: 40px;
 }
-#table-center{
+#main {
     height: 100%;
     width: 100%;
-    top: 75%;
-    left: 65%;
+    top: 50%;
+    left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+#table-center{
+    width: 800px;
 }
 table {
     border-radius: 5px;
+    justify-content: center;
     align-items: center;
     border: 1px solid #333;
     background-color: #fff;
